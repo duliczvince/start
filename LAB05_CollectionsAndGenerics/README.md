@@ -28,7 +28,7 @@ Hint: Maga a bináris keresés algoritmusa adott, csak ki kell kommentezni, a re
 
 Vizsgáljuk meg a futási időket! Mennyivel tart tovább a beszúrás, mint eddig? A választ ide írd be és majd commitold ennek a fájlnak a változásait is a megoldással együtt:
 
-VÁLASZ: Régi futásidő: _____, új futásidő: ______
+VÁLASZ: Régi futásidő: 00:00:00.0127112, új futásidő: 00:00:00.0181203
 
 Készítsünk egy olyan megvalósítást, ami egy másik adatstruktúrát használ, ahol új elem bárhova beszúrása könnyedén lehetséges!
 
@@ -36,7 +36,7 @@ Hint: LinkedList (és megfelelő függvényei)
 
 A láncolt listás megvalósításnál a bináris keresés lelassult, mivel az elemeket nem tudjuk közvetlenül címezni. Nem nyertünk sokat a listás megvalósításhoz képest. Az elemek sorrendben tárolása nem is annyira fontos, csak a gyors elérésük a cél. A User-eket id-juk alapján akarjuk elérni.
 
-VÁLASZ: A MeasureGetByIdNumber által mért futásidő ebben az esetben: ______ms
+VÁLASZ: A MeasureGetByIdNumber által mért futásidő ebben az esetben: 00:00:00.0270967 ms
 
 Használjunk egy olyan adatstruktúrát, ahol az egyes elemeket valamilyen kulcs alapján gyorsan el lehet érni!
 
@@ -46,11 +46,11 @@ A példaalkalmazás méri, hogy az egyes megvalósítások mennyi idő alatt vé
 
 Adattároló      | Feltöltési idő    | Lekérdezési idő
 ----------------|-------------------|----------------
-Array           |                   |
-List            |                   |
-List (sorted)   |                   |
-LinkedList      |                   |
-Dictionary      |                   |
+Array           |  00:00:00.1400404 | 00:00:00.5016518
+List            |  00:00:00.0142167 | 00:00:00.6946611
+List (sorted)   |  00:00:00.0127276 | 00:00:00.0395817
+LinkedList      |  00:00:00.0270967 | 00:00:13.5639735
+Dictionary      |  00:00:00.0127496 | 00:00:01.0409666
 
 ## Második feladat
 
